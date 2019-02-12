@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "webpack input.js --output packed.js && babel packed.js -o out.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "babel-preset-minify": "^0.5.0",
+    "decode-utf8": "^1.0.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
